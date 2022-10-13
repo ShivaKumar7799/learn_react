@@ -3,7 +3,7 @@ import './UseState.css'
 
 function UseState() {
   console.log("useState component rendered")
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
   const decrementFunc = () => {
     console.log("decrement Btn clicked")
     setCount(count - 1)
@@ -15,6 +15,7 @@ function UseState() {
       <button onClick={decrementFunc} className='decrementBtn' >-</button>
       <button onClick={() => setCount(count + 10)} >+10</button>
       <button onClick={() => setCount(count - 10)} >-10</button>
+      <button  onClick={() => setCount(count + 50)} >+50</button> 
     </div>
   )
 }

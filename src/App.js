@@ -4,6 +4,8 @@ import StudenForm, { PrincipleForm, TeacherForm } from './Components/Forms/Stude
 import IphoneMobile from "./Components/Forms/Iphone"
 import Props from './Components/Props/Props';
 import UseState from './Components/States/UseState';
+import UseStateInput from './Components/States/UseStateInput';
+import StudentMarks from './Components/States/StudentMarks';
 
 
 function App() {
@@ -15,7 +17,9 @@ function App() {
         <IphoneMobile />
         <PrincipleForm /> */}
         {/* <Props /> */}
-        <UseState />
+        {/* <UseState /> */}
+        {/* <UseStateInput /> */}
+        <StudentMarks />
       </>
     );
 }
