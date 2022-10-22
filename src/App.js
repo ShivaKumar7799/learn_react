@@ -6,6 +6,11 @@ import Props from './Components/Props/Props';
 import UseState from './Components/States/UseState';
 import UseStateInput from './Components/States/UseStateInput';
 import StudentMarks from './Components/States/StudentMarks';
+import UserLogin from "./Components/States/Login"
+import LearnHooks from './Components/Hooks/UseState';
+import FlipkartProducts from './Components/Flipkart/FlipkartProducts';
+import FlipkartDisplay from './Components/Flipkart/FlipkartDisplay';
+import Axios from './Components/Axios/Axios';
 
 
 function App() {
@@ -19,7 +24,12 @@ function App() {
         {/* <Props /> */}
         {/* <UseState /> */}
         {/* <UseStateInput /> */}
-        <StudentMarks />
+        {/* <StudentMarks /> */}
+        {/* <UserLogin /> */}
+        {/* <LearnHooks /> */}
+        {/* <FlipkartProducts /> */}
+        <FlipkartDisplay />
+        <Axios />
       </>
     );
 }

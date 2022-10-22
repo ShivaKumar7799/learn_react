@@ -1,0 +1,45 @@
+.flipkartContainer{
+        display: flex;
+        padding: 30px;
+        gap: 54px;
+        justify-content: center;
+        border: 1px solid whitesmoke;
+}
+.priceContainer{
+    display: flex;
+}
+.flipkartLogo > img {
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+.ratings > button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 2px 0px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.ratings > h2 {
+    margin: 10px;
+}
+.ratings > span {
+    color: gray;
+    font-size: 14px;
+}
+.discountType{
+    margin: 0px;
+    color: gray;
+}
+.priceContainer > p {
+    margin: 0px;
+}
+.percentageOffer{
+    color: gray;
+    font-size: 16px;
+}
+.imageContainer span {
+    color: gray;
+    font-size: 14px;
+}
